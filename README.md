@@ -1,1 +1,1 @@
-# ai-pomodoro-timer
+# ai-pomodoro-timer (Google Chrome Extention)
