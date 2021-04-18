@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "ai Pomodoro Timer",
+  "version": "1.0.0",
+  "description": "This ai Pomodoro Timer helps you to focus and get this done efficiently with very popular Pomodoro Technique.",
+  "icons": {
+    "16": "ai.png",
+    "48": "ai.png",
+    "128": "ai.png"
+  },
+  "action": {
+    "default_icon": "ai.png",
+    "default_timer": "ai Pomodoro Timer",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["storage", "alarms", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options/options.html"
+}
